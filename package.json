@@ -4,8 +4,8 @@
   "description": "モジュールバンドラー練習",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+   "start": "npx webpack-dev-server --open --mode development"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ywakaba/webpack-crash-course.git"
@@ -20,7 +20,8 @@
   "devDependencies": {
     "live-server": "^1.2.1",
     "webpack": "^4.29.0",
-    "webpack-cli": "^3.2.1"
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
     "lodash": "^4.17.11"
